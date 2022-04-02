@@ -8,31 +8,31 @@ import java.io.FileNotFoundException;
 class info {
 	
 	public info() {
-		JFrame info_GUI = new JFrame("subversion");	// создание графического окна
-		info_GUI.setTitle ("ФИО и зачетки");
+		JFrame info_GUI = new JFrame("subversion");	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+		info_GUI.setTitle ("пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 		info_GUI.setBounds(500,400,350,300);
-		info_GUI.setResizable(false); // фиксированный размер окна
+		info_GUI.setResizable(false); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 		JPanel InfoPanel = new JPanel();
 		InfoPanel.setLayout(null);
 		info_GUI.add(InfoPanel);
 		
-		JLabel li1 = new JLabel("Ившин В.A. : 20130830"); // Отображение текста или изображения
+		JLabel li1 = new JLabel("пїЅпїЅпїЅпїЅпїЅ пїЅ.A. : 20130830"); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		li1.setBounds(10,10,150,30);
 		InfoPanel.add(li1);
 		
-		JLabel li2 = new JLabel("Галяшкин А.С. : 20130505"); // Отображение текста или изображения
+		JLabel li2 = new JLabel("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ.пїЅ. : 20130505"); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		li2.setBounds(10,40,150,30);
 		InfoPanel.add(li2);
 		
-		JLabel li3 = new JLabel("Быков В.О. : 20130821"); // Отображение текста или изображения
+		JLabel li3 = new JLabel("пїЅпїЅпїЅпїЅпїЅ пїЅ.пїЅ. : 20130821; 02.04.22"); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		li3.setBounds(10,70,180,30);
 		InfoPanel.add(li3);
 		
-		JLabel li4 = new JLabel("Белоглазов Н.А. : 20131012"); // Отображение текста или изображения
+		JLabel li4 = new JLabel("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ.пїЅ. : 20131012"); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		li4.setBounds(10,100,180,30);
 		InfoPanel.add(li4);
 		
-		JButton button_back = new JButton("Назад");
+		JButton button_back = new JButton("пїЅпїЅпїЅпїЅпїЅ");
         button_back.setBounds(200, 200, 100, 40);
         ListenerButtonBack infoListener = new ListenerButtonBack(info_GUI);
         button_back.addActionListener(infoListener);
