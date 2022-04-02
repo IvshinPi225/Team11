@@ -16,7 +16,7 @@ class info {
 		InfoPanel.setLayout(null);
 		info_GUI.add(InfoPanel);
 		
-		JLabel li1 = new JLabel("����� �.A. : 20130830"); // ����������� ������ ��� �����������
+		JLabel li1 = new JLabel("����� �.A. : 20130830; 02.04.22 "); // ����������� ������ ��� �����������
 		li1.setBounds(10,10,150,30);
 		InfoPanel.add(li1);
 		
