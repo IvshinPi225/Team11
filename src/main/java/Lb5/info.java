@@ -28,7 +28,7 @@ class info {
 		li3.setBounds(10,70,180,30);
 		InfoPanel.add(li3);
 		
-		JLabel li4 = new JLabel("���������� �.�. : 20131012"); // ����������� ������ ��� �����������
+		JLabel li4 = new JLabel("���������� �.�. : 20131012; 02.04.22"); // ����������� ������ ��� �����������
 		li4.setBounds(10,100,180,30);
 		InfoPanel.add(li4);
 		
